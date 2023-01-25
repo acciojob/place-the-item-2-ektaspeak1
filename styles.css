@@ -1,2 +1,23 @@
+*{
+	margin:0;
+	border-sizing:border-box;
+}
 
+.holder{
+	height:100vh;
+	width:100vw;
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	background-color:blue;
+	flex-direction:row;
+	align-item:center;
+}
+
+.item{
+	height:10rem;
+	width:10rem;
+	background-color:yellow;
+	
+}
 /* Your CSS Code here. */
